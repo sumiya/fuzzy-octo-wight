@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/RECODE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="131dp"
+        android:text="@string/START_RECODE" />
+
+    <Button
+        android:id="@+id/PLAY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/RECODE"
+        android:layout_below="@+id/RECODE"
+        android:layout_marginTop="63dp"
+        android:text="@string/PLAY" />
+
+</RelativeLayout>
